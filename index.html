@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link rel="stylesheet" href="./estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Eventos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../Funciones/index.html" data-section="tema1">Funciones</a></li>
+            <li><a href="../DOM/index.html" data-section="tema2">DOM</a></li>
+            <li><a href="../DOMJSyCSS/index.html" data-section="tema3">DOM JS y CSS</a></li>
+            <li><a href="../Eventos/index.html" data-section="tema4">Eventos</a></li>
+            <li><a href="../DiseñoWebResponsivo/index.html" data-section="tema5">Diseño Web Responsivo</a></li>
+            <li><a href="../MediaQueries/index.html" data-section="tema6">Media Queries</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="tema1" class="content active">
+            <div class="container">
+                <div class="left">
+                    <h2>Ideas Principales</h2>
+                    <ul>
+                        <li>El Html DOM le permite ejecutar codigo cuando ocurre un evento.
+                        </li>
+                        <li>El navegador genera eventos cuando "sucede cosas" a elementos HTML como por ejemplo:
+                        
+                            <li>1. Al hacer click con el mouse: onclick</li>
+                            <li>2. Al colocar el mouse sobre un elemento: onmouseover</li>
+                            <li>3. Al alejar el mouse de un elemento : onmouseout</li>
+                            <li>4. Cuando una pagina web se ha cargado : onload</li>
+                            <li>5. Al presionar una tecla onkeydown</li>
+                            <li>6. Al hacer scroll en la pagina onscroll</li>
+                    
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h2>Resumen</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <h4>EvenListener:</h4>
+                            <br>
+                            El metodo addEventListener() adjuta un controlador de evetnos al elemento especificado.
+                        </li><br>
+
+                        <li>
+                            <h4>La sintaxis para este metodo es la siguiente:</h4>
+                            <br>
+                            Elemento.addEventeListener(evento, fucnion).
+                        </li><br>
+                        <li>
+                            <h4>El metodo removeEvenListener()</h4>
+                            <br>
+                            se usa para adjuntar un cotrolador de eventos al documento HTML.
+
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <footer>
+                <img src="./Imagenes/dom.png" alt="Imagen del tema 1">
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
